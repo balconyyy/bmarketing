@@ -5,6 +5,7 @@ import Header from "@/components/header"
 import FeatureCard from "@/components/feature-card"
 import ProductCard from "@/components/product-card"
 import WorkSection from "@/components/work-section"
+import TestimonialsSection from "@/components/testimonials-section"
 
 
 
@@ -124,7 +125,8 @@ export default function Home() {
         </div>
       </section>
 
-      
+      {/* Testimonials Section */}
+      <TestimonialsSection />
 
       {/* Work Section */}
       <WorkSection />
